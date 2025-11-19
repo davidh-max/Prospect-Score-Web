@@ -1,5 +1,3 @@
-'use server';
-
 import { createClient } from '@/lib/supabase/server';
 import { differenceInDays, formatDistanceToNow } from 'date-fns';
 import { es } from 'date-fns/locale';
